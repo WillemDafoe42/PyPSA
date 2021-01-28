@@ -118,7 +118,7 @@ def define_constraints(n, lhs, sense, rhs, name, attr='', axes=None, spec=''):
     sense and right hand side (rhs). The constraints are stored in the network
     object under n.cons with key of the constraint name. If multiple constraints
     are defined at ones, only using np.arrays, then the axes argument can be used
-    for defining the axes for the constraints (this is espececially recommended
+    for defining the axes for the constraints (this is especially recommended
     for time-dependent constraints). If one of lhs, sense and rhs is a
     pd.Series/pd.DataFrame the axes argument is not necessary.
 
